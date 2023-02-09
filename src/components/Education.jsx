@@ -17,7 +17,7 @@ const Education = () => {
                     data-aos-easing="linear"
                     data-aos-duration="1000">
                     <div className='flex items-center justify-between text-second_color'>
-                        <div className='font-semibold md:text-xl sm:text-lg text-2xl pl-4'>
+                        <div className='pl-4 text-2xl font-semibold md:text-xl sm:text-lg'>
                             <FontAwesomeIcon className='mr-5' icon={faGraduationCap} />
                             Posts and Telecommunications Institute of Technology
                         </div>
@@ -40,19 +40,19 @@ const Education = () => {
                     </h4>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
-                        <span className='ml-2'>Now, my graduate is granted 7.34/10. I am very happy about that.</span>
+                        <span className='ml-2'>Now, my graduate is 7.34/10. I will try to develop myself more.</span>
                     </h4>
                 </div>
                 <div className='mt-4' data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="4500">
-                    <div className='text-second_color font-semibold text-2xl md:text-xl sm:text-lg pl-4'>
+                    <div className='pl-4 text-2xl font-semibold text-second_color md:text-xl sm:text-lg'>
                         <FontAwesomeIcon className='mr-5' icon={faCertificate} />
                         Certification
                     </div>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex items-center justify-between'>
                         <div>
-                            <h4 className='flex items-center text-base mt-4 leading-6'>
+                            <h4 className='flex items-center mt-4 text-base leading-6'>
                                 <Spinner />
                                 <span className='ml-2'>TOEIC:810/990</span>
                             </h4>
