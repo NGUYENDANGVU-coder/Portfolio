@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div className='lg:mt-header md:px-8 lg:px-[150px] sm:px-5 mt-0 flex h-[90vh] relative items-center justify-between' id='home'>
             <div>
-                <h2 className='text-xl sm:text-base text-gray-400'>Hi,I'm Dang Vu <i className='[color:#1c8cc2eb]'><FontAwesomeIcon icon={faHandsWash} /></i></h2>
-                <div className='text-5xl sm:text-base md:text-3xl py-10'>
+                <h2 className='text-xl text-gray-400 sm:text-base'>Hi,I'm Dang Vu <i className='[color:#1c8cc2eb]'><FontAwesomeIcon icon={faHandsWash} /></i></h2>
+                <div className='py-10 text-5xl sm:text-base md:text-3xl'>
                     <ReactTyped
                         strings={[
                             'Welcome to my Portfolio',
@@ -22,12 +22,14 @@ const Home = () => {
                         <input type="text" className='bg-transparent placeholder:text-white' />
                     </ReactTyped>
                 </div>
-                <button className='ndv__button'>
-                    Download CV
-                    <i className='ml-2'>
-                        <FontAwesomeIcon icon={faFileLines} />
-                    </i>
-                </button>
+                <a href={image.imgCV} download className='w-full h-full '>
+                    <button className='ndv__button'>
+                        Download CV
+                        <i className='ml-2'>
+                            <FontAwesomeIcon icon={faFileLines} />
+                        </i>
+                    </button>
+                </a>
             </div>
             <div className='h-[400px] w-[400px] sm:w-[300px] sm:h-[200px]'>
                 <img src={image.avata} alt="avt" className='ndv__img animate-profile_animate shadow-avt_shadow' />

@@ -16,10 +16,10 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const handleSucess = () => {
         if (name.length === 0 || email.length === 0 || message.length === 0) {
-            swal("Sent error!", "I'll contact you soon", "error");
+            swal("Sent error!", "Please insert information", "error");
 
         } else {
-            swal("Sent success!", "Please insert information", "success");
+            swal("Sent success!", "I'll contact you soon", "success");
         }
     }
     const form = useRef();
@@ -36,37 +36,37 @@ const Contact = () => {
                 <h3 className='text-center text-gray-500 mb-[100px]'>CONTACT ME</h3>
                 <div className='flex justify-around sm:flex-col sm:items-center' >
                     <div className=''>
-                        <h3 className='text-2xl pb-3 font-semibold'>Talk to me</h3>
+                        <h3 className='pb-3 text-2xl font-semibold'>Talk to me</h3>
                         <div data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
-                            <div className='my-6 flex items-center' >
+                            <div className='flex items-center my-6' >
                                 <div className='text-2xl text-second_color'><FontAwesomeIcon icon={faEnvelope} /></div>
                                 <div className='pl-6'>
                                     <h4 className='text-lg font-medium'>Email</h4>
-                                    <p className='text-sm py-2'>I am here to help you</p>
+                                    <p className='py-2 text-sm'>I am here to help you</p>
                                     <a href='mailto:nguyendangvu137@gmail.com' className='text-sm text-second_color'>nguyendangvu137@gmail.com</a>
                                 </div>
                             </div>
-                            <div className='my-6 flex items-center'>
+                            <div className='flex items-center my-6'>
                                 <div className='text-2xl text-second_color'><FontAwesomeIcon icon={faPhoneVolume} /></div>
                                 <div className='pl-6'>
                                     <h4 className='text-lg font-medium'>Phone</h4>
                                     <a href='tel:+0379015026' className='text-sm text-second_color'>0379015026</a>
                                 </div>
                             </div>
-                            <div className='my-6 flex items-center'>
+                            <div className='flex items-center my-6'>
                                 <div className='text-2xl text-second_color'><FontAwesomeIcon icon={faLocationDot} /></div>
                                 <div className='pl-6'>
                                     <h4 className='text-lg font-medium'>Address</h4>
-                                    <p className='text-sm py-2'>Service clients 24/24</p>
+                                    <p className='py-2 text-sm'>Service clients 24/24</p>
                                     <p className='text-sm text-second_color'>97 Man Thien, Hiep Phu Ward, Thu Duc, Ho Chi Minh City</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <h3 className='text-2xl pb-3 font-semibold'>Write me something</h3>
+                        <h3 className='pb-3 text-2xl font-semibold'>Write me something</h3>
                         <form ref={form} onSubmit={sendEmail} data-aos="fade-left"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
@@ -80,7 +80,7 @@ const Contact = () => {
                             </div>
                             <div className='relative my-6'>
                                 <label className='ndv__label'>Message</label>
-                                <textarea name='message' cols='30' rows='5' value={message} className='ndv__input resize-none' placeholder='Write some thing' onChange={(e) => setMessage(e.target.value)} />
+                                <textarea name='message' cols='30' rows='5' value={message} className='resize-none ndv__input' placeholder='Write some thing' onChange={(e) => setMessage(e.target.value)} />
                             </div>
                             <button className='ndv__button' onClick={() => { handleSucess() }}>
                                 Send <i><FontAwesomeIcon icon={faPaperPlane} className='ml-2' /></i>

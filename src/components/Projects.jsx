@@ -17,13 +17,13 @@ const Projects = () => {
                 {
                     ProjectImg.map((project,index)=>{
                         return(
-                            <a href='/#' key={index} className='relative group sm:h-[150px] sm:w-[150px] ' data-aos="fade-right"
+                            <a href={project.link} key={index} className='relative group sm:h-[150px] sm:w-[150px] ' data-aos="fade-right" target="_blank" rel="noreferrer"
                             data-aos-easing="ease-in-sine">
                                 <div className='absolute group-hover:hidden bg-second_color p-[6px] text-sm rounded-tl-lg rounded-br-lg'>{project.title}</div>
-                                <img className='ndv__img rounded-lg group-hover:opacity-[0.2] ease-in-out duration-500' src={project.img} alt='project'></img>
-                                <div className='absolute hidden group-hover:flex top-0 w-full h-full z-3 items-center justify-center '>
+                                <img className='rounded-lg ndv__img ' src={project.img} alt='project'></img>
+                                <div className='absolute top-0 items-center justify-center hidden w-full h-full group-hover:flex z-3 '>
                                     <div className='absolute top-0  left-0 bg-second_color p-[6px] text-sm rounded-tl-lg rounded-br-lg animate-tag_animate'>{project.description}</div>
-                                    <div className=' text-white '><FontAwesomeIcon className='text-3xl' icon={faEye}/></div>
+                                    <div className='text-white '><FontAwesomeIcon className='text-3xl' icon={faEye}/></div>
                                 </div>
                             </a>
                         )

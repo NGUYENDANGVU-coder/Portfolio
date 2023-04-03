@@ -10,14 +10,14 @@ const Education = () => {
         AOS.refresh();
     }, []);
     return (
-        <div className='wrapper' id='education'>
+        <div className='wrapper' id='education' >
             <h1 className='ndv__title'>EDUCATION</h1>
-            <div>
+            <div className='sm:text-sm'>
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1000">
                     <div className='flex items-center justify-between text-second_color'>
-                        <div className='pl-4 text-2xl font-semibold md:text-xl sm:text-lg'>
+                        <div className='pl-4 text-2xl font-semibold md:text-xl sm:text-sm w-[70%]'>
                             <FontAwesomeIcon className='mr-5' icon={faGraduationCap} />
                             Posts and Telecommunications Institute of Technology
                         </div>
@@ -40,7 +40,7 @@ const Education = () => {
                     </h4>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
-                        <span className='ml-2'>Now, my graduate is 7.34/10. I will try to develop myself more.</span>
+                        <span className='ml-2'>Now, my graduate is 7.50/10. I will try to develop myself more.</span>
                     </h4>
                 </div>
                 <div className='mt-4' data-aos="fade-down"
@@ -50,15 +50,15 @@ const Education = () => {
                         <FontAwesomeIcon className='mr-5' icon={faCertificate} />
                         Certification
                     </div>
-                    <div className='flex items-center justify-between'>
+                    <div className='flex items-center justify-around'>
                         <div>
-                            <h4 className='flex items-center mt-4 text-base leading-6'>
+                            <h4 className='flex items-center mt-4 text-base leading-6 sm:text-sm'>
                                 <Spinner />
                                 <span className='ml-2'>TOEIC:810/990</span>
                             </h4>
                         </div>
                         <div>
-                            <p className='text-second_color'>26/07/2022 - 26/07/2024</p>
+                            <p className='text-second_color sm:text-xs sm:mt-[14px]'>26/07/2022 - 26/07/2024</p>
                         </div>
                     </div>
                 </div>
