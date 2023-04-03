@@ -1,0 +1,63 @@
+[debug] [2023-02-09T11:43:26.810Z] ----------------------------------------------------------------------
+[debug] [2023-02-09T11:43:26.812Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-09T11:43:26.812Z] CLI Version:   11.22.0
+[debug] [2023-02-09T11:43:26.813Z] Platform:      win32
+[debug] [2023-02-09T11:43:26.813Z] Node Version:  v16.15.0
+[debug] [2023-02-09T11:43:26.813Z] Time:          Thu Feb 09 2023 18:43:26 GMT+0700 (Indochina Time)
+[debug] [2023-02-09T11:43:26.813Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-09T11:43:26.903Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-09T11:43:26.904Z] > authorizing via signed-in user (vunho1239999@gmail.com)
+[debug] [2023-02-09T11:43:26.904Z] [iam] checking project portfolio-ndv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-09T11:43:26.907Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ndv:testIamPermissions [none]
+[debug] [2023-02-09T11:43:26.907Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ndv:testIamPermissions x-goog-quota-user=projects/portfolio-ndv
+[debug] [2023-02-09T11:43:26.908Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ndv:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T11:43:28.376Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ndv:testIamPermissions 200
+[debug] [2023-02-09T11:43:28.376Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ndv:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-09T11:43:28.378Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv [none]
+[debug] [2023-02-09T11:43:58.380Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv
+[debug] [2023-02-09T11:43:59.435Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv
+    at RetryOperation._fn (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-ndv. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-02-09T11:44:55.647Z] ----------------------------------------------------------------------
+[debug] [2023-02-09T11:44:55.650Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-09T11:44:55.651Z] CLI Version:   11.22.0
+[debug] [2023-02-09T11:44:55.651Z] Platform:      win32
+[debug] [2023-02-09T11:44:55.651Z] Node Version:  v16.15.0
+[debug] [2023-02-09T11:44:55.652Z] Time:          Thu Feb 09 2023 18:44:55 GMT+0700 (Indochina Time)
+[debug] [2023-02-09T11:44:55.652Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-09T11:44:55.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-09T11:44:55.766Z] > authorizing via signed-in user (vunho1239999@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\Workspace\reactjs\portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-09T11:45:06.493Z] Using project from CLI flag: portfolio-ndv
+[debug] [2023-02-09T11:45:06.496Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv [none]
+[debug] [2023-02-09T11:45:36.498Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv
+[debug] [2023-02-09T11:45:36.929Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/portfolio-ndv
+    at RetryOperation._fn (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-ndv. Please make sure the project exists and your account has permission to access it.
