@@ -95,7 +95,7 @@ const Header = () => {
                 <div className="hidden lg:flex lg:gap-4 lg:z-10">
                     <a href="https://github.com/NGUYENDANGVU-coder" target="_blank" rel="noopener noreferrer"><i>{<Icon.GithubIcon />}</i></a>
                     <a href="https://www.facebook.com/profile.php?id=100015216550974" target="_blank" rel="noopener noreferrer"><i>{<Icon.FacebookIcon />}</i></a>
-                    <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-%C4%91%C4%83ng-v%C5%A9-203347263/" target="_blank" rel="noopener noreferrer"><i>{<Icon.LinkedInIcon />}</i></a>
+                    <a href="https://www.linkedin.com/in/dang-vu-nguyen-203347263/" target="_blank" rel="noopener noreferrer"><i>{<Icon.LinkedInIcon />}</i></a>
                 </div>
                 <div className="block toggle lg:hidden hover:cursor-pointer " onClick={() => { setToggle(!toggle) }}>
                     <i>{<Icon.AppIcon />}</i>

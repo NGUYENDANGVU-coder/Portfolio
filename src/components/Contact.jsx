@@ -60,7 +60,7 @@ const Contact = () => {
                                 <div className='pl-6'>
                                     <h4 className='text-lg font-medium'>Address</h4>
                                     <p className='py-2 text-sm'>Service clients 24/24</p>
-                                    <p className='text-sm text-second_color'>97 Man Thien, Hiep Phu Ward, Thu Duc, Ho Chi Minh City</p>
+                                    <p className='text-sm text-second_color'>64 Truong Quoc Dung, Phu Nhuan Ward, Ho Chi Minh City</p>
                                 </div>
                             </div>
                         </div>

@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import TheEnd from "./components/TheEnd";
 import Education from "./components/Education";
 import ScrollUp from "./components/ScrollUp";
+import SkillsShowcase from "./components/Skills";
 function App() {
   return (
     <BrowserRouter>
@@ -17,7 +18,8 @@ function App() {
           <Header/>
           <Home />
           <About />
-          <Skill />
+          {/* <Skill /> */}
+          <SkillsShowcase/>
           <Projects/>
           <Education/>
           <Contact />

@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div data-aos="fade-up-left" className='lg:max-w-[800px] w-[55%] sm:text-sm sm:w-full'>
                     <h2 className='text-xl'>Something about me!</h2>
-                    <p className='py-4'>My name is Dang Vu. I started learning how to code in January 2021 and I spend a lot of time studying about HTML, CSS, JavaScript, ReactJS.
-                        I realized that I really like coding and I want to make really good products for my customers. So I'm looking for a suitable job where I can practice and hone my skills.</p>
+                    <p className='py-4'>My name is Dang Vu. I am a young, enthusiastic, open-hearted, and responsible person with over 3 years of experience as a Frontend Developer. With
+a passion for both personal and software development. I am always striving to build better things.</p>
                     <h3 className=''>Short-term Goal:
                         <span> Improving as well as learning many skills at programming. Become Fullstack Developer as soon as possible.</span>
                     </h3>

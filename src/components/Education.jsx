@@ -22,13 +22,12 @@ const Education = () => {
                             Posts and Telecommunications Institute of Technology
                         </div>
                         <div>
-                            <p>August 2019 - Present</p>
+                            <p>August 2019 - December 2023</p>
                         </div>
                     </div>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
-                        <span className='ml-2'>I'm a final year student majoring in Front-end Developer would love to experience and gain more practical knowledge
-                            in this industry through the intern position.</span>
+                        <span className='ml-2'>Graduated from the Posts and Telecommunications Institute of Technology (PTIT), majoring in Information Technology.</span>
                     </h4>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
@@ -36,11 +35,11 @@ const Education = () => {
                     </h4>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
-                        <span className='ml-2'>I really enjoy my school, where I make new friends and we study together. I also had moments standing on lectern to teach my classmates about programming.</span>
+                        <span className='ml-2'>During my time at university, I focused on building a solid foundation in software development, web technologies, and problem-solving.</span>
                     </h4>
                     <h4 className='flex items-center mt-4 leading-6'>
                         <Spinner />
-                        <span className='ml-2'>Now, my graduate is 7.50/10. I will try to develop myself more.</span>
+                        <span className='ml-2'>My graduate was 3.0/4.0.</span>
                     </h4>
                 </div>
                 <div className='mt-4' data-aos="fade-down"
@@ -50,7 +49,7 @@ const Education = () => {
                         <FontAwesomeIcon className='mr-5' icon={faCertificate} />
                         Certification
                     </div>
-                    <div className='flex items-center justify-around'>
+                    <div className='flex items-center justify-between'>
                         <div>
                             <h4 className='flex items-center mt-4 text-base leading-6 sm:text-sm'>
                                 <Spinner />
