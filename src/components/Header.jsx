@@ -71,12 +71,12 @@ const Header = () => {
                                 <p>EDUCATION</p>
                             </a>
                         </li>
-                        <li className="relative flex items-center justify-center gap-x-1">
+                        {/* <li className="relative flex items-center justify-center gap-x-1">
                             <a href="#contact" onClick={()=>setActive('#contact')} className={active === '#contact' ? "ndv__header-list active-link" : "ndv__header-list "}>
                                 <i className="ndv__icon-header">{<Icon.ContactIcon />}</i>
                                 <p>CONTACT</p>
                             </a>
-                        </li>
+                        </li> */}
                         <li className="relative flex items-center justify-center gap-x-1">
                             <a href="#theend" onClick={()=>setActive('#theend')} className={active === '#theend' ? "ndv__header-list active-link" : "ndv__header-list "}>
                                 <i className="ndv__icon-header">{<Icon.EndIcon/>}</i>
