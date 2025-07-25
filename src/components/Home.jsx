@@ -23,14 +23,14 @@ const Home = () => {
                         <input type="text" className='w-full bg-transparent placeholder:text-white' />
                     </ReactTyped>
                 </div>
-                <a href={image.imgCV} download className='w-full h-full '>
+                {/* <a href={image.imgCV} download className='w-full h-full '>
                     <button className='ndv__button'>
                         Download CV
                         <i className='ml-2'>
                             <FontAwesomeIcon icon={faFileLines} />
                         </i>
                     </button>
-                </a>
+                </a> */}
             </div>
             <div className='h-[400px] max-w-[400px] sm:w-[300px] sm:h-[200px]'>
                 <img src={image.avata} alt="avt" className='ndv__img animate-profile_animate shadow-avt_shadow' />
